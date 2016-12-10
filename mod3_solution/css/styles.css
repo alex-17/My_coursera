@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #f5f5f5;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #ffec8b;
+  border-radius: 0;
+  border: 0;
+}
+
+
+
+
+
+.navbar-brand h1 { /* Name */
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 15;
+  line-height: .75;
+  text-align: left;
+
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #00004d;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -43px;
+
+}
+
+/* END HEADER */
+
+/********** Base styles **********/
+ /********** Base styles **********/
+
+
+.container {
+  width: 100%;
+}
+
+
+div #Meat , #Fish , #Chicken { 
+  background-color: #dbdbdb;
+  border: 1px solid black;
+  position: relative;
+  margin-top: 16px;
+}
+p {
+  margin-top: 0px;
+  padding: 3px;
+  clear: right;
+  text-align: justify; 
+  color: #000000;
+}
+
+ #Text-header {
+  text-align: center;
+  color: #3b3c36;
+  font-size: 1.55em;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#p1 {
+  width: 40%;
+  background-color: #A52A2A;
+  border: 1px solid black;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  margin-bottom: 0px;
+  float: right;
+  clear: both;
+  font-size: 1.25em;
+  text-align: center;
+  color: #ffffff;
+}
+#p2 {
+  width: 40%;
+  background-color: #fbec5d;
+  border: 1px solid black;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  margin-bottom: 0px;
+  float: right;
+  clear: both;
+  text-align: center;
+  font-size: 1.25em;
+}
+#p3 {
+  width: 40%;
+  background-color: #6c92af;
+  border: 1px solid black;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  margin-bottom: 0px;
+  float: right;
+  clear: both;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+
+/* Simple Responsive Framework. */
+
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    border: 0px solid green;
+    padding: 0px 8px 0px 8px;
+} 
+  .col-lg-4  {
+    width: 33.33%;
+  }
+  
+ 
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    border: 0px solid green;
+    padding: 0px 8px 0px 8px;
+  } 
+  .col-md-6 {
+    width: 50%;
+  }
+  
+  .col-md-12 {
+    width: 100%;
+  }
+  .col-md-12  #p3 {
+    width: 20%;
+  }
+  
+}
